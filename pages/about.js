@@ -1,5 +1,5 @@
 const About = () => {
-  return <div>This is about page</div>;
+  return <div>Simple Next.Js app for list of cryptocurrencies</div>;
 };
 
 export default About;
