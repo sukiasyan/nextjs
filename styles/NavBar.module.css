@@ -4,6 +4,12 @@
   background-color: rgb(28, 28, 28);
   display: flex;
   justify-content: center;
+
+  position: fixed;
+  background-color: #1c1c1c;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
 }
 
 .links {

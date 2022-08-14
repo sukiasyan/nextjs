@@ -9,8 +9,7 @@ export default function Home() {
       <Head>
         <title>Next Title</title>
       </Head>
-      <Link href='/about'>About</Link>
-      <h1 className={styles.homePageTitle}>Hello world</h1>
+      <div className={styles.homePageTitle}>Hello world</div>
     </div>
   );
 }
