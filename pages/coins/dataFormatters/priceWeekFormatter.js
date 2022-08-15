@@ -1,4 +1,3 @@
-import { Box } from '@mui/material';
 import { DataTypeProvider } from '@devexpress/dx-react-grid';
 import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
