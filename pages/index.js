@@ -9,7 +9,8 @@ export default function Home() {
       <Head>
         <title>Next Title</title>
       </Head>
-      <div className={styles.homePageTitle}>Hello world</div>
+      <h3 className={styles.homePageTitle}>Hello world</h3>
+      <div>Simple Next.Js app for list of cryptocurrencies</div>
     </div>
   );
 }
