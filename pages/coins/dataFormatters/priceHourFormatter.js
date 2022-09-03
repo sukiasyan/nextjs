@@ -33,7 +33,7 @@ const priceHourFormatter = ({ value }) => {
 };
 
 const PriceHourProvider = (props) => (
-  <DataTypeProvider formatterComponent={priceHourFormatter} {...props} />
+  <DataTypeProvider formatterComponent={priceHourFormatter} {...props} for={['priceChange1h']}/>
 );
 
 export default PriceHourProvider;
