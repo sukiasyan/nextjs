@@ -33,7 +33,7 @@ const priceWeekFormatter = ({ value }) => {
 };
 
 const PriceWeekProvider = (props) => (
-  <DataTypeProvider formatterComponent={priceWeekFormatter} {...props} />
+  <DataTypeProvider formatterComponent={priceWeekFormatter} {...props} for={['priceChange1w']} />
 );
 
 export default PriceWeekProvider;

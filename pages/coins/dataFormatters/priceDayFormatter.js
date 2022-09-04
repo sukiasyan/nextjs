@@ -33,7 +33,7 @@ const priceDayFormatter = ({ value }) => {
 };
 
 const PriceDayProvider = (props) => (
-  <DataTypeProvider formatterComponent={priceDayFormatter} {...props} />
+  <DataTypeProvider formatterComponent={priceDayFormatter} {...props} for={['priceChange1d']} />
 );
 
 export default PriceDayProvider;
