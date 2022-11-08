@@ -4,9 +4,13 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 !!! Important 
 For mock backend json-server used. You can simply install it globally 
+```bash
 npm i -g json-server
+```
 then run server
+```bash
 json-server --watch db.json
+```
 
 First, run the development server:
 
